@@ -4,6 +4,7 @@
     --code-bg-color: #ddd;
     --text-color: #111;
     --light-text-color: #111c;
+    --link-color: #5cb;
   }
 }
 
@@ -13,6 +14,7 @@
     --code-bg-color: #444;
     --text-color: #eee;
     --light-text-color: #eeec;
+    --link-color: #66f;
   }
 }
 
@@ -24,4 +26,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	padding-left: 15px;
 	border-bottom: 2px solid gray;
+}
+
+a {
+  color: var(--link-color);
 }
