@@ -21,6 +21,7 @@
 body {
   color: var(--text-color);
   background-color: var(--bg-color);
+  overflow: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,4 +31,9 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: var(--link-color);
+}
+
+code {
+  color: var(--light-text-color);
+  background-color: var(--code-bg-color);
 }
